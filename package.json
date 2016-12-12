@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/liuderchi/atom-i18n-cson#readme",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "path": "^0.12.7",
+    "cson": "^4.0.0",
+    "sync-request": "^3.0.1",
     "yargs": "^6.5.0"
   }
 }
