@@ -1,6 +1,6 @@
 'menu': [
   {
-    'label': 'Packages'
+    'label': '套件'
     'submenu': [
       'label': 'Bracket Matcher'
       'submenu': [
@@ -13,7 +13,7 @@
     ]
   },
   {
-    'label': 'Selection'
+    'label': '選取'
     'submenu': [
         { 'label': 'Select Inside Brackets', 'command': 'bracket-matcher:select-inside-brackets' }
     ]

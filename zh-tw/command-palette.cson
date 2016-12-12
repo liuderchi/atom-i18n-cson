@@ -1,6 +1,6 @@
 'menu': [
   {
-    'label': 'View'
+    'label': '檢視'
     'submenu': [
       {
         'label': 'Toggle Command Palette'
@@ -9,7 +9,7 @@
     ]
   }
   {
-    'label': 'Packages'
+    'label': '套件'
     'submenu': [
       {
         'label': 'Command Palette',

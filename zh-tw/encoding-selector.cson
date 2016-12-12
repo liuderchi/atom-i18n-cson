@@ -1,5 +1,5 @@
 'menu': [
-  'label': 'Edit'
+  'label': '編輯'
   'submenu': [
     'label': 'Select Encoding'
     'command': 'encoding-selector:show'

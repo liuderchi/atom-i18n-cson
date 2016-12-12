@@ -1,5 +1,5 @@
 'menu': [
-  'label': 'Find'
+  'label': '尋找'
   'submenu': [
     { 'label': 'Find in Buffer', 'command': 'find-and-replace:show'}
     { 'label': 'Replace in Buffer', 'command': 'find-and-replace:show-replace'}

@@ -1,6 +1,6 @@
 'menu': [
   {
-    'label': 'Packages'
+    'label': '套件'
     'submenu': [
       'label': 'Open On GitHub'
       'submenu': [

@@ -1,6 +1,6 @@
 'menu': [
   {
-    'label': 'View'
+    'label': '檢視'
     'submenu': [
       { 'label': 'Toggle Tree View', 'command': 'tree-view:toggle' }
     ]

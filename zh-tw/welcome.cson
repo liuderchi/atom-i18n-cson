@@ -1,5 +1,5 @@
 'menu': [
-  'label': 'Help'
+  'label': '幫助'
   'submenu': [
     {'label': 'Welcome Guide', 'command': 'welcome:show'}
   ]
