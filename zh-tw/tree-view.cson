@@ -6,7 +6,7 @@
     ]
   }
   {
-    'label': 'Packages'
+    'label': '套件'
     'submenu': [
       'label': 'Tree View'
       'submenu': [
