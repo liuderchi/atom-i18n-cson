@@ -1,6 +1,6 @@
 'menu': [
   {
-    'label': 'Edit'
+    'label': '編輯'
     'submenu': [
       {
         'label': 'Reflow Selection'
