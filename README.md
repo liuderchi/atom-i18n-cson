@@ -1,26 +1,61 @@
-# Atom i18n
+# Atom i18n CSON
 
-Atom i18n try to make custom release with i18n support
+Custom Atom Release with i18n support.
 
-
-## Support version (updated Dec 10 16')
-
-  - v1.13 beta
-  - v1.12
+Also hosting i18n cson content for the custom build.
 
 
-## BUILD (WIP)
+## Support version (updated Dec 13 16')
 
-  - release page
-  - custom build
-
-
-## CONTRIBUTE (WIP)
-
-  - please refer to CONTRIBUTION.md for style guide and more info
+  - v1.13.0 beta8
 
 
-## Currently Packages Require Translation (total 26. updated Dec 10 16')
+## Download Custom i18n Release (WIP)
+
+  - please refer to [release page](https://github.com/liuderchi/atom-i18n-cson/releases)
+
+
+## BUILD and Make Custom Release
+
+  1. prepare your environment based on [Official Atom Build Instruction](https://github.com/atom/atom/blob/master/README.md#building)
+
+  2. you need to clone [my Atom fork with some customization](https://github.com/liuderchi/atom.git)
+
+        git clone https://github.com/liuderchi/atom.git
+
+  3. change into directory and checkout to remote branch named with `i18n` prefix like `origin/i18n_v1.13`
+
+        cd atom && git checkout origin/i18n_v1.13
+
+      - **NOTE** the branch is under development with *forced push* so please notice when syncing with it
+
+  4. build Atom and create package for your locale
+
+        ./script/build --create-debian-package --locale=LOCALE
+
+     - `LOCALE` support (WIP):
+          - [ ] `zh-tw`
+
+     - **NOTE** if `LOCALE` you specified is not support, welcome to [*CONTRIBUTE*](#contribute).
+     - For building ATOM in other ways to check [Official Atom Build Instruction](https://github.com/atom/atom/blob/master/README.md#building)
+
+  5. install ATOM
+
+        dpkg -i ./out/atom-amd64.deb
+
+  6. some files in your repo would be overwritten so restore them with
+
+        git checkout ./
+
+
+## CONTRIBUTE
+
+  - please refer to [CONTRIBUTING.md](https://github.com/liuderchi/atom-i18n-cson/blob/master/CONTRIBUTING.md) for PR style guide and more info
+
+
+## Packages/CSON/file Required Translation (total 30. updated Dec 13 16')
+
+list core packages has cson files of menu item by using [script/listPackageWithMenuCson.js](https://github.com/liuderchi/atom-i18n-cson/blob/master/script/listPackageWithMenuCson.js)
 
   - [ ] autoflow
   - [ ] bookmarks
@@ -49,6 +84,16 @@ Atom i18n try to make custom release with i18n support
   - [ ] welcome
   - [ ] whitespace
 
+  ---
+
+  - [ ] `menus/darwin.cson`
+  - [ ] `menus/linux.cson`
+  - [ ] `menus/win32.cson`
+
+  ---
+
+  - [x] `src/reopen-project-menu-manager.js`
+
 
 ## TODO
 
@@ -58,9 +103,9 @@ Atom i18n try to make custom release with i18n support
       - [x] list of core modules require translation
           - list package.json.packageDependencies has `./menus/*.cson`
       - repo supports JSON downloading via github API
-      - [ ] build flow and description in README.md
-      - [ ] CONTRIBUTE.md
-          - [ ] PR guide (one branch + multiple folders)
+      - [x] build flow and description in README.md
+      - [x] CONTRIBUTE.md
+          - [x] PR guide (one branch + multiple folders)
       - [ ] consider ATOM binary download?
           - [creating release along with binary](https://help.github.com/articles/creating-releases/)
 
@@ -68,4 +113,7 @@ Atom i18n try to make custom release with i18n support
       - [x] package.json
   - [ ] refine `i18n.js` code
       - [x] collection of core packages
-      - [ ] argument parsing
+      - [x] argument parsing
+      - [ ] test translation of *context menus*
+  - [ ] survey ATOM API to change menu item content in run time
+  - [ ] test script that merging all `*.cson` and check size of big menu labels
