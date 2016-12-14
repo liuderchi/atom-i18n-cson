@@ -13,5 +13,5 @@
 
 'context-menu':
   'atom-text-editor:not([mini])': [
-    { 'label': 'Go to Declaration', 'command': 'symbols-view:go-to-declaration' }
+    { 'label': '移動至宣告', 'command': 'symbols-view:go-to-declaration' }
   ]

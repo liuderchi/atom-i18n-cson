@@ -8,6 +8,6 @@
 
 'context-menu':
   '.overlayer': [
-    'label': 'Change Grammar'
+    'label': '更改語法'
     'command': 'grammar-selector:show'
   ]

@@ -8,6 +8,6 @@
 
 'context-menu':
   'atom-text-editor:not([mini])': [
-    'label': 'Change Encoding'
+    'label': '更改編碼'
     'command': 'encoding-selector:show'
   ]

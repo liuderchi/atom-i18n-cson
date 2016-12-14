@@ -202,28 +202,28 @@
 
 'context-menu':
   'atom-text-editor, .overlayer': [
-    {label: 'Undo', command: 'core:undo'}
-    {label: 'Redo', command: 'core:redo'}
+    {label: '復原', command: 'core:undo'}
+    {label: '取消復原', command: 'core:redo'}
     {type: 'separator'}
-    {label: 'Cut', command: 'core:cut'}
-    {label: 'Copy', command: 'core:copy'}
-    {label: 'Paste', command: 'core:paste'}
-    {label: 'Delete', command: 'core:delete'}
-    {label: 'Select All', command: 'core:select-all'}
+    {label: '剪下', command: 'core:cut'}
+    {label: '複製', command: 'core:copy'}
+    {label: '貼上', command: 'core:paste'}
+    {label: '刪除', command: 'core:delete'}
+    {label: '全部選取', command: 'core:select-all'}
     {type: 'separator'}
-    {label: 'Split Up', command: 'pane:split-up-and-copy-active-item'}
-    {label: 'Split Down', command: 'pane:split-down-and-copy-active-item'}
-    {label: 'Split Left', command: 'pane:split-left-and-copy-active-item'}
-    {label: 'Split Right', command: 'pane:split-right-and-copy-active-item'}
-    {label: 'Close Pane', command: 'pane:close'}
+    {label: '向上複製分頁', command: 'pane:split-up-and-copy-active-item'}
+    {label: '向下複製分頁', command: 'pane:split-down-and-copy-active-item'}
+    {label: '向左複製分頁', command: 'pane:split-left-and-copy-active-item'}
+    {label: '向右複製分頁', command: 'pane:split-right-and-copy-active-item'}
+    {label: '關閉此面板', command: 'pane:close'}
     {type: 'separator'}
   ]
   'atom-pane': [
     {type: 'separator'}
-    {label: 'Split Up', command: 'pane:split-up-and-copy-active-item'}
-    {label: 'Split Down', command: 'pane:split-down-and-copy-active-item'}
-    {label: 'Split Left', command: 'pane:split-left-and-copy-active-item'}
-    {label: 'Split Right', command: 'pane:split-right-and-copy-active-item'}
-    {label: 'Close Pane', command: 'pane:close'}
+    {label: '向上複製分頁', command: 'pane:split-up-and-copy-active-item'}
+    {label: '向下複製分頁', command: 'pane:split-down-and-copy-active-item'}
+    {label: '向左複製分頁', command: 'pane:split-left-and-copy-active-item'}
+    {label: '向右複製分頁', command: 'pane:split-right-and-copy-active-item'}
+    {label: '關閉此面板', command: 'pane:close'}
     {type: 'separator'}
   ]

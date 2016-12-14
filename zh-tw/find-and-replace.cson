@@ -22,5 +22,5 @@
 
 'context-menu':
   '.tree-view > li.directory': [
-    { 'label': 'Search in Directory', 'command': 'project-find:show-in-current-directory' }
+    { 'label': '在此資料夾中搜尋', 'command': 'project-find:show-in-current-directory' }
   ]

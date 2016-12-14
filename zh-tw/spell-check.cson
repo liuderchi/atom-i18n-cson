@@ -16,5 +16,5 @@
 ],
 'context-menu':
   'atom-text-editor:not([mini])': [
-    {label: 'Correct Spelling', command: 'spell-check:correct-misspelling'}
+    {label: '校正拼字', command: 'spell-check:correct-misspelling'}
   ]
