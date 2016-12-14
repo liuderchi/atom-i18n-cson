@@ -64,6 +64,8 @@ Atom i18n try to make custom release with i18n support
       - [ ] consider ATOM binary download?
           - [creating release along with binary](https://help.github.com/articles/creating-releases/)
 
+  - [ ] refine script/listPackageWithMenuCson.js
+      - [ ] package.json
   - [ ] refine `i18n.js` code
       - [x] collection of core packages
       - [ ] argument parsing

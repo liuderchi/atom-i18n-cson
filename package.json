@@ -1,0 +1,24 @@
+{
+  "name": "atom-i18n-cson",
+  "version": "1.0.0",
+  "description": "Atom i18n try to make custom release with i18n support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuderchi/atom-i18n-cson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuderchi/atom-i18n-cson/issues"
+  },
+  "homepage": "https://github.com/liuderchi/atom-i18n-cson#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "yargs": "^6.5.0"
+  }
+}
