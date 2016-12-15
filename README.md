@@ -23,11 +23,11 @@ Also hosting i18n cson content for the custom build.
 
         git clone https://github.com/liuderchi/atom.git
 
-  3. change into directory and checkout to remote branch named with `i18n` prefix like `origin/i18n_v1.13`
+  3. change into directory and checkout to remote branch in proper name such as `origin/i18n_v1.13.0_MyLocale`:
 
-        cd atom && git checkout origin/i18n_v1.13
+        cd atom && git checkout origin/i18n_v1.13.0_zhTW
 
-      - **NOTE** the branch is under development with *forced push* so please notice when syncing with it
+      - **NOTE** the branch is under development with *forced update* so please notice when syncing with it
 
   4. build Atom and create package for your locale
 

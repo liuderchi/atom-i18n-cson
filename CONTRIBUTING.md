@@ -11,7 +11,13 @@
 
   - fork this repo
   - clone the repo you just forked to your disk
-  - change into directory then *create a branch* named as the locale you wanna support
+
+      `git clone https://github.com/liuderchi/atom-i18n-cson.git`
+
+  - change into directory then *create a branch* named as the locale you want to contribute.
+
+      `cd atom-i18n-cson && git checkout -b fr`
+
   - open the cson file you wanna contribute
       - if your locale is missing, please copy `template_cson` folder and rename it as your locale
 
@@ -55,4 +61,11 @@ and only content `'Edit'` or `'Reflow Selection'` is *valid*
 the values `'&File'` ,`'New &Window'` can be translated into `'檔案(&F)'`, `'開新視窗(&W)'`
 
   - commit the changes and push the branch you created to your remote
+
+      ```
+      git add ./
+      git commit -m "translate something"
+      git push -u origin MY_BRANCH
+      ```
+
   - [create a pull request](https://help.github.com/articles/creating-a-pull-request/)
