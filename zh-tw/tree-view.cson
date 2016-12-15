@@ -1,12 +1,12 @@
 'menu': [
   {
-    'label': '檢視'
+    'label': '檢視(&V)'
     'submenu': [
       { 'label': 'Toggle Tree View', 'command': 'tree-view:toggle' }
     ]
   }
   {
-    'label': '套件'
+    'label': '套件(&P)'
     'submenu': [
       'label': 'Tree View'
       'submenu': [
