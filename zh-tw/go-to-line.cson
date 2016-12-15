@@ -1,5 +1,5 @@
 'menu': [
-  'label': '編輯'
+  'label': '編輯(&E)'
   'submenu': [
     'label': 'Go to Line'
     'command': 'go-to-line:toggle'

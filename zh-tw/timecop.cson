@@ -1,5 +1,5 @@
 'menu': [
-  'label': '套件'
+  'label': '套件(&P)'
   'submenu': [
     'label': 'Timecop'
     'submenu': [

@@ -1,6 +1,6 @@
 menu: [
   {
-    label: '檔案'
+    label: '檔案(&F)'
     submenu: [
       {label: 'Close All Tabs', command: 'tabs:close-all-tabs'}
     ]

@@ -1,5 +1,5 @@
 'menu': [
-  'label': '尋找'
+  'label': '尋找(&I)'
   'submenu': [
     { 'label': 'Find Buffer', 'command': 'fuzzy-finder:toggle-buffer-finder' }
     { 'label': 'Find File', 'command': 'fuzzy-finder:toggle-file-finder' }

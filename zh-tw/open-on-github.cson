@@ -1,6 +1,6 @@
 'menu': [
   {
-    'label': '套件'
+    'label': '套件(&P)'
     'submenu': [
       'label': 'Open On GitHub'
       'submenu': [
