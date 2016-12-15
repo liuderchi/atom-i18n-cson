@@ -1,6 +1,6 @@
 'menu': [
   {
-    label: '&File'
+    label: '檔案'
     submenu: [
       { label: 'New &Window', command: 'application:new-window' }
       { label: '&New File', command: 'application:new-file' }
@@ -37,7 +37,7 @@
   }
 
   {
-    label: '&Edit'
+    label: '編輯'
     submenu: [
       { label: '&Undo', command: 'core:undo' }
       { label: '&Redo', command: 'core:redo' }
@@ -107,7 +107,7 @@
   }
 
   {
-    label: '&View'
+    label: '檢視'
     submenu: [
       { label: 'Toggle &Full Screen', command: 'window:toggle-full-screen' }
       { label: 'Toggle Menu Bar', command: 'window:toggle-menu-bar' }
@@ -149,7 +149,7 @@
   }
 
   {
-    label: '&Selection'
+    label: '選取'
     submenu: [
       { label: 'Add Selection &Above', command: 'editor:add-selection-above' }
       { label: 'Add Selection &Below', command: 'editor:add-selection-below' }
@@ -170,17 +170,17 @@
   }
 
   {
-    label: 'F&ind'
+    label: '尋找'
     submenu: []
   }
 
   {
-    label: '&Packages'
+    label: '套件'
     submenu: []
   }
 
   {
-    label: '&Help'
+    label: '幫助'
     submenu: [
       { label: 'View &Terms of Use', command: 'application:open-terms-of-use' }
       { label: 'View &License', command: 'application:open-license' }
