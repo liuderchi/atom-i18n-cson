@@ -17,8 +17,8 @@
 
       `cp -r template_cson MY_LOCALE`
 
-  - **NOTICE** you can **ONLY** translate **value under the key: `label`**
-      - for example, translate `autoflow.cson`:
+  - **NOTICE #1** you can **ONLY** translate **value under the key: `label`**
+      - for example, let's translate `autoflow.cson`:
 
 ```coffee
 'menu': [
@@ -35,6 +35,24 @@
 ```
 
 and only content `'Edit'` or `'Reflow Selection'` is *valid*
+
+  - **NOTICE #2** for the label containing **hotkey hint** "`&`", it's good to preserve it with braces wrapping at the end.
+
+      - for example let's translate `menus/win32.cson` into Traditional Chinese:
+
+```coffee
+'menu': [
+  {
+    label: '&File'
+    submenu: [
+      { label: 'New &Window', command: 'application:new-window' }
+      # more ...
+    ]
+  }
+]
+```
+
+the values `'&File'` ,`'New &Window'` can be translated into `'檔案(&F)'`, `'開新視窗(&W)'`
 
   - commit the changes and push the branch you created to your remote
   - [create a pull request](https://help.github.com/articles/creating-a-pull-request/)

@@ -111,9 +111,9 @@ list core packages has cson files of menu item by using [script/listPackageWithM
 
   - [x] refine script/listPackageWithMenuCson.js
       - [x] package.json
-  - [ ] refine `i18n.js` code
+  - [x] refine `i18n.js` code
       - [x] collection of core packages
       - [x] argument parsing
-      - [ ] test translation of *context menus*
+      - [x] test translation of *context menus*
   - [ ] survey ATOM API to change menu item content in run time
   - [ ] test script that merging all `*.cson` and check size of big menu labels
