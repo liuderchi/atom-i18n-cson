@@ -99,15 +99,19 @@ list core packages has cson files of menu item by using [script/listPackageWithM
 
   - [x] create custom branch of atom fork
 
-  - [ ] create another github repo to accept i18n contribution
+  - [ ] create github repo to accept i18n contribution
+      - [x] repo supply JSON content via github API
       - [x] list of core modules require translation
-          - list package.json.packageDependencies has `./menus/*.cson`
-      - repo supports JSON downloading via github API
+          - list packageDependencies in `package.json` like `./menus/*.cson`
+      - [x] list of scripts adding menu/context-menu
       - [x] build flow and description in README.md
       - [x] CONTRIBUTE.md
           - [x] PR guide (one branch + multiple folders)
       - [ ] consider ATOM binary download?
           - [creating release along with binary](https://help.github.com/articles/creating-releases/)
+      - [ ] util script translate local `*.cson` under `.atom/packages/*/menus/`
+      - [ ] test script that merging all `*.cson` and check size of big menu labels
+      - [ ] i18n demo animation with hotkey support
 
   - [x] refine script/listPackageWithMenuCson.js
       - [x] package.json
@@ -116,4 +120,3 @@ list core packages has cson files of menu item by using [script/listPackageWithM
       - [x] argument parsing
       - [x] test translation of *context menus*
   - [ ] survey ATOM API to change menu item content in run time
-  - [ ] test script that merging all `*.cson` and check size of big menu labels
